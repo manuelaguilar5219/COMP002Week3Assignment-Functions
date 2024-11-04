@@ -9,8 +9,9 @@ console.log(min(5, 20)); // Will Output 5
 function calculateCircumference(radius) {
     const pi = 3.14; 
     return 2 * pi * radius; 
-}
+} // Will Output: 31.4
 // 3. Write a function searchString that takes a character and then returns how many times it appears in another string argument.
 // Example Output:
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
+console.log(searchString("m", "mississippi")); // Will Output 1 because m appears once in the string
